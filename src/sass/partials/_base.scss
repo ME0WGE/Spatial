@@ -1,3 +1,6 @@
+// IMPORTS
+@use "../partials/mixins" as *;
+
 // HEADER
 .nav-header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.35)),
@@ -42,11 +45,9 @@ nav {
 // CONTENT
 // SECTION 1
 .section1 {
+  @include element-flex-center;
   margin: 1vw;
   height: 50vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
   .section1-div1 {
     display: flex;
@@ -71,26 +72,20 @@ nav {
 .section2 {
   background-color: #f6f6f5;
   height: 80vh;
-  display: flex;
+  @include element-flex-center;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 // SECTION 3
 .section3 {
   height: 80vh;
-  display: flex;
+  @include element-flex-center;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 // SECTION 4
 .section4 {
   height: 30vh;
-  display: flex;
+  @include element-flex-center;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.35)),
     url("../assets/img/banner.jpg");
   background-repeat: no-repeat;
@@ -107,10 +102,8 @@ nav {
 }
 // FOOTER
 footer {
-  display: flex;
+  @include element-flex-center;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 30vh;
 
   .fa-items {

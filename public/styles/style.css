@@ -33,11 +33,11 @@ nav div a span {
 }
 
 .section1 {
-  margin: 1vw;
-  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 1vw;
+  height: 50vh;
 }
 .section1 .section1-div1 {
   display: flex;
@@ -61,25 +61,25 @@ nav div a span {
   background-color: #f6f6f5;
   height: 80vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .section3 {
   height: 80vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .section4 {
   height: 30vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.35)), url("../assets/img/banner.jpg");
   background-repeat: no-repeat;
   background-position: 50%;
@@ -95,9 +95,9 @@ nav div a span {
 
 footer {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 30vh;
 }
 footer .fa-items {
