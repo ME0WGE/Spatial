@@ -103,6 +103,10 @@ nav div a span {
 .section3 .h1-p {
   font-size: 1.5vw;
 }
+.section3 .div-img > img {
+  border: 10px solid rgba(170, 170, 169, 0.2666666667);
+  border-radius: 50%;
+}
 
 .section4 {
   height: 30vh;
