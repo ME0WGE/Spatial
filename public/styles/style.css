@@ -89,11 +89,17 @@ nav div a span {
 }
 
 .section3 {
-  height: 80vh;
+  margin: 5vw;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.section3 h1 {
+  font-size: 2.5vw;
+}
+.section3 .h1-p {
+  font-size: 1.5vw;
 }
 
 .section4 {

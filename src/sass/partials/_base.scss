@@ -102,9 +102,16 @@ nav {
 }
 // SECTION 3
 .section3 {
-  height: 80vh;
+    margin: 5vw;
   @include element-flex-center;
   flex-direction: column;
+
+  h1 {
+    font-size: 2.5vw;
+  }
+  .h1-p {
+    font-size: 1.5vw;
+  }
 }
 // SECTION 4
 .section4 {
