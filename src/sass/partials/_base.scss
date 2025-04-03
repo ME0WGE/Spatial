@@ -73,9 +73,32 @@ nav {
 // SECTION 2
 .section2 {
   background-color: #f6f6f5;
-  height: 80vh;
   @include element-flex-center;
   flex-direction: column;
+
+  .card-container {
+    gap: 2vw;
+  }
+  .card {
+    img {
+      width: 30vw;
+    }
+    .card-body {
+      margin: 1vw;
+      text-align: center;
+      font-size: 1vw;
+    }
+  }
+  .section2-buttons {
+    gap: 1vw;
+  }
+  .section2-btn > p {
+    margin: 0;
+    padding: 0.5vw;
+    font-weight: 900;
+    font-size: 1vw;
+    width: 10vw;
+  }
 }
 // SECTION 3
 .section3 {
