@@ -526,7 +526,7 @@
   footer {
     @include element-flex-center;
     flex-direction: column;
-    height: 30vh;
+    padding: 2vw;
 
     .fa-items {
       font-size: 4vw;

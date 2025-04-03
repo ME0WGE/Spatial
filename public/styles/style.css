@@ -477,7 +477,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 30vh;
+    padding: 2vw;
   }
   footer .fa-items {
     font-size: 4vw;
