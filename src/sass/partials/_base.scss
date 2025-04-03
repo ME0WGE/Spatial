@@ -84,3 +84,24 @@ nav {
   justify-content: center;
   align-items: center;
 }
+// SECTION 4
+.section4 {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.35)),
+    url("../assets/img/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100%;
+
+  .get-in-touch > p {
+    margin: 0;
+    padding: 0.25vw;
+    font-weight: 900;
+    font-size: 1vw;
+    width: 10vw;
+  }
+}
