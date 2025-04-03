@@ -269,10 +269,12 @@
         width: 100%;
       }
       .card-body {
-        height: 20vh;
+        // height: 20vh;
         margin: 1vw;
         text-align: center;
-        font-size: 2.5vw;
+        font-size: 3vw;
+        padding-top: 10vw;
+        padding-bottom: 10vw;
       }
     }
     .section2-buttons {
