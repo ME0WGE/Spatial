@@ -456,12 +456,12 @@
     }
     .card {
       img {
-        width: 30vw;
+        width: 100%;
       }
       .card-body {
         margin: 1vw;
         text-align: center;
-        font-size: 1vw;
+        font-size: 3vw;
       }
     }
     .section2-buttons {
@@ -471,8 +471,8 @@
       margin: 0;
       padding: 0.5vw;
       font-weight: 900;
-      font-size: 1vw;
-      width: 10vw;
+      font-size: 2vw;
+      width: 20vw;
     }
   }
   // SECTION 3
