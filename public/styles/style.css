@@ -434,10 +434,16 @@
     flex-direction: column;
   }
   .section3 h1 {
-    font-size: 2.5vw;
+    font-size: 4vw;
   }
   .section3 .h1-p {
-    font-size: 1.5vw;
+    font-size: 2vw;
+  }
+  .section3 div.section3-text {
+    width: 25vw;
+  }
+  .section3 div.container.text-end {
+    width: 25vw;
   }
   .section3 .div-img > img {
     border: 10px solid rgba(170, 170, 169, 0.2666666667);

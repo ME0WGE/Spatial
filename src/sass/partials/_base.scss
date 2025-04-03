@@ -482,10 +482,16 @@
     flex-direction: column;
 
     h1 {
-      font-size: 2.5vw;
+      font-size: 4vw;
     }
     .h1-p {
-      font-size: 1.5vw;
+      font-size: 2vw;
+    }
+    div.section3-text {
+      width: 25vw;
+    }
+    div.container.text-end {
+      width: 25vw;
     }
     .div-img > img {
       border: 10px solid #aaaaa944;
