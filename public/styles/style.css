@@ -199,27 +199,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1vw;
-    height: 50vh;
+    flex-direction: column;
+    margin: 10vw;
   }
   .section1 .section1-div1 {
     display: flex;
     flex-direction: column;
-    margin-bottom: 7vw;
-    width: 25vw;
+    width: 60vw;
   }
   .section1 .section1-div1 h1 {
-    font-size: 3vw;
+    font-size: 6vw;
   }
   .section1 .section1-div1 p {
     opacity: 50%;
-    font-size: 1.5vw;
+    font-size: 3vw;
   }
   .section1 .section1-div2 {
     display: flex;
     flex-direction: column;
-    width: 30vw;
-    line-height: 1.5vw;
+    width: 60vw;
   }
   .section2 {
     background-color: #f6f6f5;
@@ -254,6 +252,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+  }
+  .section3 .div1-section3 {
+    display: flex;
     flex-direction: column;
   }
   .section3 h1 {

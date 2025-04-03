@@ -226,28 +226,29 @@
   // SECTION 1
   .section1 {
     @include element-flex-center;
-    margin: 1vw;
-    height: 50vh;
+    flex-direction: column;
+    margin: 10vw;
+    // height: 50vh;
 
     .section1-div1 {
       display: flex;
       flex-direction: column;
-      margin-bottom: 7vw;
-      width: 25vw;
+    //   margin-bottom: 1vw;
+      width: 60vw;
 
       h1 {
-        font-size: 3vw;
+        font-size: 6vw;
       }
       p {
         opacity: 50%;
-        font-size: 1.5vw;
+        font-size: 3vw;
       }
     }
     .section1-div2 {
       display: flex;
       flex-direction: column;
-      width: 30vw;
-      line-height: 1.5vw;
+      width: 60vw;
+    //   line-height: 1.5vw;
     }
   }
   // SECTION 2
@@ -285,6 +286,11 @@
     margin: 5vw;
     @include element-flex-center;
     flex-direction: column;
+
+    .div1-section3 {
+        display: flex;
+        flex-direction: column;
+    }
 
     h1 {
       font-size: 2.5vw;
