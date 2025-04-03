@@ -40,4 +40,29 @@ nav {
   }
 }
 // CONTENT
-// test
+.section1 {
+  margin: 1vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .section1-div1 {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+
+    h1 {
+      font-size: 3vw;
+    }
+    p {
+      opacity: 50%;
+      font-size: 1.5vw;
+    }
+  }
+  .section1-div2 {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+  }
+}
