@@ -508,7 +508,7 @@
     z-index: -1;
     background-attachment: fixed;
     background-position: 50%;
-    background-size: 100%;
+    background-size: cover;
     height: 40vh;
 
     .get-in-touch {
@@ -518,8 +518,8 @@
       margin: 0;
       padding: 0.25vw;
       font-weight: 900;
-      font-size: 1vw;
-      width: 10vw;
+      font-size: 2vw;
+      width: 20vw;
     }
   }
   // FOOTER
@@ -529,7 +529,7 @@
     height: 30vh;
 
     .fa-items {
-      font-size: 2vw;
+      font-size: 4vw;
       gap: 3vw;
       color: #aaaaa9;
     }
