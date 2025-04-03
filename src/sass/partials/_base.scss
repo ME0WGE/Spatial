@@ -155,15 +155,19 @@ footer {
     color: #aaaaa9;
   }
   .links-items {
-    gap: 3vw;
+    gap: 1vw;
     color: #aaaaa9;
     p {
       margin: 0;
     }
     #design {
-      padding: 0.5vw;
-      border-left: 1px solid #aaaaa9;
-      border-right: 1px solid #aaaaa9;
+      @include element-flex-center;
+      height: 2vw;
+      border-left: 1px solid #aaaaa970;
+      border-right: 1px solid #aaaaa970;
+    }
+    #design > p {
+      padding: 1vw;
     }
   }
 }
