@@ -75,7 +75,7 @@ nav div a span {
 }
 
 .section4 {
-  height: 50vh;
+  height: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -91,6 +91,31 @@ nav div a span {
   font-weight: 900;
   font-size: 1vw;
   width: 10vw;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+footer .fa-items {
+  font-size: 2vw;
+  gap: 3vw;
+  color: #aaaaa9;
+}
+footer .links-items {
+  gap: 3vw;
+  color: #aaaaa9;
+}
+footer .links-items p {
+  margin: 0;
+}
+footer .links-items #design {
+  padding: 0.5vw;
+  border-left: 1px solid #aaaaa9;
+  border-right: 1px solid #aaaaa9;
 }
 
 /*!

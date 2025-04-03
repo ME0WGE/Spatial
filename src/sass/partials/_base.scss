@@ -86,7 +86,7 @@ nav {
 }
 // SECTION 4
 .section4 {
-  height: 50vh;
+  height: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -103,5 +103,31 @@ nav {
     font-weight: 900;
     font-size: 1vw;
     width: 10vw;
+  }
+}
+// FOOTER
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+
+  .fa-items {
+    font-size: 2vw;
+    gap: 3vw;
+    color: #aaaaa9;
+  }
+  .links-items {
+    gap: 3vw;
+    color: #aaaaa9;
+    p {
+      margin: 0;
+    }
+    #design {
+      padding: 0.5vw;
+      border-left: 1px solid #aaaaa9;
+      border-right: 1px solid #aaaaa9;
+    }
   }
 }
