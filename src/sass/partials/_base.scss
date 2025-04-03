@@ -1,0 +1,42 @@
+// HEADER
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url("../../../public/assets/img/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 95vh;
+
+  div {
+    h1 {
+      font-size: 4vw;
+    }
+    #header-p {
+      text-align: center;
+      width: 40vw;
+      font-size: 1.5vw;
+      opacity: 60%;
+    }
+    .get-started > p {
+      margin: 0;
+      padding: 0.5vw;
+      font-weight: 900;
+      font-size: 1vw;
+      width: 10vw;
+    }
+  }
+}
+// NAVBAR
+nav {
+  position: relative;
+  z-index: -1;
+  div {
+    a {
+      font-weight: 900;
+      span {
+        opacity: 50%;
+      }
+    }
+  }
+}
+// CONTENT
+// test

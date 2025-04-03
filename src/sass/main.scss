@@ -1,0 +1,12 @@
+// VARIABLES
+@use "./partials/variables" as *;
+// BASE
+@use "./partials/base";
+// ICONS
+@use "./partials/icons";
+// FONTS
+@use "./partials/fonts";
+// MIXINS
+@use "./partials/mixins";
+// BOOTSTRAP
+@use "../../node_modules/bootstrap/scss/bootstrap.scss";
