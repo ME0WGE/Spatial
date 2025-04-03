@@ -228,31 +228,40 @@
   }
   .section2 .card-container {
     gap: 2vw;
-    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    flex-direction: row;
+    width: 80vw;
   }
   .section2 .card img {
-    width: 60vw;
+    width: 100%;
   }
   .section2 .card .card-body {
+    height: 20vh;
     margin: 1vw;
     text-align: center;
-    font-size: 3vw;
+    font-size: 2.5vw;
   }
   .section2 .section2-buttons {
-    gap: 1vw;
+    gap: 3vw;
   }
   .section2 .section2-btn > p {
     margin: 0;
     padding: 0.5vw;
     font-weight: 900;
-    font-size: 2vw;
-    width: 20vw;
+    font-size: 4vw;
+    width: 30vw;
+  }
+  .section2 .section2-div1 {
+    text-align: center;
   }
   .section2 .section2-div1 h1 {
     width: 60vw;
+    font-size: 6vw;
   }
   .section2 .section2-div1 p {
     width: 60vw;
+    font-size: 4vw;
   }
   .section3 {
     margin: 5vw;
@@ -306,7 +315,7 @@
     height: 30vh;
   }
   footer .fa-items {
-    font-size: 2vw;
+    font-size: 6vw;
     gap: 3vw;
     color: #aaaaa9;
   }
