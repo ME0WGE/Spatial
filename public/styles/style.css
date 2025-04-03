@@ -345,11 +345,11 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     z-index: -1;
-    background-size: 100%;
+    background-size: cover;
     height: 90vh;
   }
   .nav-header header {
-    margin-top: 15vh;
+    margin-top: 30vh;
   }
   .nav-header header div h1 {
     font-size: 8vw;
@@ -366,6 +366,9 @@
     font-weight: 900;
     font-size: 2vw;
     width: 20vw;
+  }
+  nav #navbarNav > ul {
+    display: none;
   }
   nav div a {
     font-weight: 900;

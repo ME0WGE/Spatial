@@ -382,11 +382,11 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     z-index: -1;
-    background-size: 100%;
+    background-size: cover;
     height: 90vh;
 
     header {
-      margin-top: 15vh;
+      margin-top: 30vh;
       div {
         h1 {
           font-size: 8vw;
@@ -409,6 +409,9 @@
   }
   // NAVBAR
   nav {
+    #navbarNav > ul {
+      display: none;
+    }
     div {
       a {
         font-weight: 900;
