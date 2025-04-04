@@ -9,4 +9,4 @@
 // MIXINS
 @use "./partials/mixins";
 // BOOTSTRAP
-@use "../../node_modules/bootstrap/scss/bootstrap.scss";
+@use "../../node_modules/bootstrap/scss/bootstrap.scss" with($dark: $dark);
