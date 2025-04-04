@@ -12,20 +12,20 @@
     margin-top: 35vh;
   }
   .nav-header header div h1 {
-    font-size: 4vw;
+    font-size: 8vw;
   }
   .nav-header header div #header-p {
     text-align: center;
     width: 40vw;
-    font-size: 1.5vw;
+    font-size: 2vw;
     opacity: 60%;
   }
   .nav-header header div .get-started > p {
     margin: 0;
     padding: 0.25vw;
     font-weight: 900;
-    font-size: 1vw;
-    width: 10vw;
+    font-size: 1.5vw;
+    width: 15vw;
   }
   nav div a {
     font-weight: 900;
