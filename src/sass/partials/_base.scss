@@ -397,10 +397,10 @@
     height: 95vh;
 
     header {
-      margin-top: 30vh;
+      margin-top: 35vh;
       div {
         h1 {
-          font-size: 8vw;
+          font-size: 10vw;
         }
         #header-p {
           text-align: center;
@@ -412,8 +412,8 @@
           margin: 0;
           padding: 0.25vw;
           font-weight: 900;
-          font-size: 2vw;
-          width: 20vw;
+          font-size: 3vw;
+          width: 25vw;
         }
       }
     }
@@ -464,6 +464,15 @@
     background-color: #f6f6f5;
     @include element-flex-center;
     flex-direction: column;
+
+    div {
+      h1 {
+        font-size: 5vw;
+      }
+      p {
+        font-size: 2.5vw;
+      }
+    }
 
     .card-container {
       gap: 2vw;
